@@ -9,7 +9,7 @@
     "packages/app-store/*"
   ],
   "scripts": {
-    "build": "turbo run build --scope=\"@calcom/web\" --include-dependencies",
+    "build": "yarn run build --scope=\"@calcom/web\" --include-dependencies",
     "heroku-postbuild": "ng build --prod",
     "clean": "turbo run clean && rm -rf node_modules",
     "db-deploy": "turbo run db-deploy",
